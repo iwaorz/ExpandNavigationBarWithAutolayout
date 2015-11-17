@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SAPViewController.h
 //  ExpandNavigationBarSample
 //
 //  Created by Iwao SUZUKI on 2015/09/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SAPViewController : UIViewController
 
 @end
-

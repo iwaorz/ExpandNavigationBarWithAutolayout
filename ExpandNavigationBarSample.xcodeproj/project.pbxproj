@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD3FE2571BB7DC6500858CE1 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3FE2561BB7DC6500858CE1 /* UIImage+ImageEffects.m */; settings = {ASSET_TAGS = (); }; };
 		DD45C82B1BB6A15F00DCD5D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD45C82A1BB6A15F00DCD5D9 /* main.m */; };
 		DD45C82E1BB6A15F00DCD5D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD45C82D1BB6A15F00DCD5D9 /* AppDelegate.m */; };
-		DD45C8311BB6A15F00DCD5D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD45C8301BB6A15F00DCD5D9 /* ViewController.m */; };
 		DD45C8341BB6A15F00DCD5D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD45C8321BB6A15F00DCD5D9 /* Main.storyboard */; };
 		DD45C8361BB6A15F00DCD5D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD45C8351BB6A15F00DCD5D9 /* Assets.xcassets */; };
 		DD45C8391BB6A15F00DCD5D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD45C8371BB6A15F00DCD5D9 /* LaunchScreen.storyboard */; };
+		DD45C8421BB6A3E800DCD5D9 /* SAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD45C8411BB6A3E800DCD5D9 /* SAPViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD3FE2551BB7DC6500858CE1 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		DD3FE2561BB7DC6500858CE1 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		DD45C8261BB6A15F00DCD5D9 /* ExpandNavigationBarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandNavigationBarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD45C82A1BB6A15F00DCD5D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD45C82C1BB6A15F00DCD5D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD45C82D1BB6A15F00DCD5D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD45C82F1BB6A15F00DCD5D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD45C8301BB6A15F00DCD5D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DD45C8331BB6A15F00DCD5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD45C8351BB6A15F00DCD5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD45C8381BB6A15F00DCD5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD45C83A1BB6A15F00DCD5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD45C8401BB6A3E800DCD5D9 /* SAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPViewController.h; sourceTree = "<group>"; };
+		DD45C8411BB6A3E800DCD5D9 /* SAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 			children = (
 				DD45C82C1BB6A15F00DCD5D9 /* AppDelegate.h */,
 				DD45C82D1BB6A15F00DCD5D9 /* AppDelegate.m */,
-				DD45C82F1BB6A15F00DCD5D9 /* ViewController.h */,
-				DD45C8301BB6A15F00DCD5D9 /* ViewController.m */,
+				DD45C8401BB6A3E800DCD5D9 /* SAPViewController.h */,
+				DD45C8411BB6A3E800DCD5D9 /* SAPViewController.m */,
+				DD3FE2551BB7DC6500858CE1 /* UIImage+ImageEffects.h */,
+				DD3FE2561BB7DC6500858CE1 /* UIImage+ImageEffects.m */,
 				DD45C8321BB6A15F00DCD5D9 /* Main.storyboard */,
 				DD45C8351BB6A15F00DCD5D9 /* Assets.xcassets */,
 				DD45C8371BB6A15F00DCD5D9 /* LaunchScreen.storyboard */,
@@ -149,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD45C8311BB6A15F00DCD5D9 /* ViewController.m in Sources */,
+				DD3FE2571BB7DC6500858CE1 /* UIImage+ImageEffects.m in Sources */,
 				DD45C82E1BB6A15F00DCD5D9 /* AppDelegate.m in Sources */,
+				DD45C8421BB6A3E800DCD5D9 /* SAPViewController.m in Sources */,
 				DD45C82B1BB6A15F00DCD5D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 				DD45C83F1BB6A15F00DCD5D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
